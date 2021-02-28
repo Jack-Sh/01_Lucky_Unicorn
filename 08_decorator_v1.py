@@ -11,5 +11,6 @@ def statement_generator(statement, decoration):
     return""
 
 
-
-statement_generator("Welcome to the Lucky Unicorn Game,")
+statement_generator("Welcome to the Lucky Unicorn Game", "*")
+print()
+statement_generator("Congratulations you got a Unicorn", "!")
